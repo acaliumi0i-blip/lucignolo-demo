@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f8f6f1">
+<meta property="og:title" content="Lucignolo — Boutique bambini in Versilia">
+<meta property="og:description" content="Abbigliamento, calzature e accessori a Forte dei Marmi, Pietrasanta e Tonfano.">
+<meta property="og:type" content="website">
+<meta name="description" content="Lucignolo: abbigliamento, calzature e accessori a Forte dei Marmi, Pietrasanta e Tonfano. Scopri i punti vendita in Versilia.">
+<title>Lucignolo — Boutique bambini in Versilia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allura&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--ivory:#f8f6f1;--white:#fff;--sand:#e8ded0;--beige:#d5c2ac;--brown:#695140;--ink:#292722;--muted:#716b62;--line:rgba(41,39,34,.16);--serif:"Playfair Display",Georgia,serif;--sans:"DM Sans",Arial,sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:85px}body{margin:0;background:var(--ivory);color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased}body.menu-open{overflow:hidden}a{color:inherit;text-decoration:none}button{font:inherit}img{display:block;max-width:100%;width:100%;object-fit:cover}::selection{background:var(--beige);color:var(--ink)}
+.announcement{padding:9px 16px;text-align:center;background:var(--ink);color:#f8f6f1;font-size:10px;letter-spacing:.18em;text-transform:uppercase}
+.header{position:sticky;top:0;z-index:20;background:rgba(248,246,241,.94);backdrop-filter:blur(16px);border-bottom:1px solid transparent;transition:border-color .25s,box-shadow .25s}.header.scrolled{border-color:var(--line);box-shadow:0 4px 22px #29272208}.nav{height:82px;max-width:1440px;margin:auto;padding:0 5.5%;display:grid;grid-template-columns:1fr auto 1fr;align-items:center}.navlinks{display:flex;gap:28px;align-items:center}.navlinks a,.nav-right a{font-size:10px;letter-spacing:.13em;text-transform:uppercase;transition:opacity .2s}.navlinks a:hover,.nav-right a:hover{opacity:.55}.brand{font-family:var(--serif);font-size:27px;line-height:1;letter-spacing:.035em;text-align:center;white-space:nowrap}.brand small{display:block;font:9px var(--sans);letter-spacing:.28em;text-transform:uppercase;margin-top:8px}.nav-right{display:flex;justify-content:flex-end;gap:22px;align-items:center}.menu-toggle{display:none;border:0;background:none;padding:10px;color:var(--ink)}
+.hero{min-height:min(760px,calc(100svh - 110px));position:relative;display:grid;grid-template-columns:1fr 1fr;background:#d8c9b7;overflow:hidden}.hero-image{position:absolute;inset:0 0 0 36%;background:#d8c9b7}.hero-image img{height:100%;object-position:center 36%;filter:saturate(.82)}.hero-image:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,var(--ivory) 0%,rgba(248,246,241,.88) 9%,rgba(248,246,241,.08) 48%,rgba(41,39,34,.05) 100%)}.hero-copy{position:relative;z-index:1;align-self:center;padding:70px 0 80px 11%;max-width:590px}.eyebrow{font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--brown);display:flex;align-items:center;gap:12px}.eyebrow:before{content:"";height:1px;width:28px;background:currentColor}.hero h1{font:clamp(48px,6.2vw,88px)/.99 var(--serif);font-weight:400;letter-spacing:-.045em;margin:27px 0 22px;max-width:560px}.hero h1 em{font-weight:400;color:var(--brown)}.hero-copy p{font-size:13px;line-height:1.9;color:#5e584f;max-width:340px;margin:0 0 32px}.button{min-height:48px;display:inline-flex;align-items:center;justify-content:center;gap:22px;padding:0 22px;background:var(--ink);color:var(--white);border:1px solid var(--ink);font-size:10px;text-transform:uppercase;letter-spacing:.16em;transition:background .25s,color .25s,transform .25s}.button:hover{background:transparent;color:var(--ink);transform:translateY(-2px)}.button .arrow{font-size:17px;line-height:1}.hero-note{position:absolute;z-index:2;right:5.5%;bottom:28px;color:white;font-size:9px;letter-spacing:.2em;text-transform:uppercase;writing-mode:vertical-rl}
+.section{padding:115px 7%;max-width:1600px;margin:auto}.section-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:46px}.section-head h2{font:clamp(36px,4.3vw,59px)/1.05 var(--serif);font-weight:400;letter-spacing:-.035em;margin:15px 0 0}.section-head p{max-width:330px;color:var(--muted);font-size:12px;line-height:1.9;margin:0 0 4px}.intro-grid{display:grid;grid-template-columns:1.02fr .98fr;gap:9%;align-items:center}.intro-image{position:relative;min-height:520px;background:var(--sand);overflow:hidden}.intro-image img{height:100%;min-height:520px;position:absolute;inset:0}.image-caption{position:absolute;bottom:18px;left:18px;background:var(--ivory);padding:12px 16px;font-size:9px;letter-spacing:.15em;text-transform:uppercase}.intro-copy{padding:30px 6% 30px 0}.intro-copy h2{font:clamp(38px,4.3vw,62px)/1.08 var(--serif);font-weight:400;letter-spacing:-.04em;margin:18px 0 24px}.intro-copy p{font-size:13px;line-height:2;color:var(--muted);max-width:420px}.text-link{display:inline-flex;align-items:center;gap:18px;padding:16px 0 8px;border-bottom:1px solid var(--brown);font-size:10px;letter-spacing:.15em;text-transform:uppercase;margin-top:16px}.text-link span{font-size:17px;transition:transform .2s}.text-link:hover span{transform:translateX(5px)}
+.collections{background:#eee7dc;max-width:none}.collections-inner{max-width:1450px;margin:auto}.collection-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:18px}.collection-card{position:relative;min-height:420px;overflow:hidden;background:#d4c4b2}.collection-card img{position:absolute;inset:0;height:100%;transition:transform .8s cubic-bezier(.2,.7,.2,1);filter:saturate(.8)}.collection-card:after{content:"";position:absolute;inset:35% 0 0;background:linear-gradient(transparent,rgba(28,26,22,.58))}.collection-card:hover img{transform:scale(1.045)}.collection-info{position:absolute;z-index:1;bottom:28px;left:27px;right:27px;color:white;display:flex;align-items:end;justify-content:space-between}.collection-info small{display:block;font-size:9px;letter-spacing:.18em;text-transform:uppercase;margin-bottom:9px}.collection-info h3{font:34px var(--serif);font-weight:400;margin:0}.circle-arrow{border:1px solid #ffffffa8;width:40px;height:40px;border-radius:50%;display:grid;place-items:center;font-size:18px;transition:background .2s,color .2s}.collection-card:hover .circle-arrow{background:white;color:var(--ink)}
+.editorial{padding:0;max-width:none;display:grid;grid-template-columns:1.1fr .9fr;min-height:620px;background:#d8c8b6}.editorial-image{min-height:620px;overflow:hidden}.editorial-image img{height:100%;min-height:620px}.editorial-copy{align-self:center;padding:70px clamp(35px,8vw,130px)}.editorial-copy .eyebrow{margin-bottom:24px}.editorial-copy h2{font:clamp(38px,4.5vw,65px)/1.07 var(--serif);font-weight:400;letter-spacing:-.04em;margin:0 0 22px}.editorial-copy p{font-size:12px;line-height:2;color:#5f564c;max-width:360px;margin-bottom:28px}
+.stores{background:var(--ivory)}.store-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);margin-top:42px}.store-card{background:var(--ivory);padding:35px 28px 32px;min-height:245px;display:flex;flex-direction:column;align-items:flex-start}.store-number{font:italic 16px var(--serif);color:var(--brown)}.store-card h3{font:30px var(--serif);font-weight:400;margin:18px 0 10px}.store-card p{font-size:11px;line-height:1.8;color:var(--muted);margin:0;max-width:260px}.store-card .text-link{margin-top:auto;padding-top:20px}
+.social{padding:100px 0 110px;max-width:none}.social-head{text-align:center;padding:0 20px 38px}.social-head .eyebrow{justify-content:center}.social-head .eyebrow:before{display:none}.social-head h2{font:clamp(38px,4vw,56px) var(--serif);font-weight:400;margin:18px 0 10px}.social-head p{font-size:12px;color:var(--muted)}.social-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}.social-tile{aspect-ratio:1;overflow:hidden;background:var(--sand);position:relative}.social-tile img{height:100%;transition:transform .6s}.social-tile:hover img{transform:scale(1.04)}.social-tile:after{content:"↗";position:absolute;right:12px;bottom:12px;color:white;font-size:20px;text-shadow:0 1px 8px #0008}
+.footer{background:#292722;color:var(--ivory);padding:70px 7% 25px}.footer-top{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:40px;padding-bottom:55px}.footer-brand{font:35px var(--serif)}.footer-brand small{display:block;font:9px var(--sans);letter-spacing:.25em;text-transform:uppercase;margin-top:9px}.footer-intro p{font-size:11px;line-height:1.9;color:#c0b9ae;max-width:250px;margin-top:22px}.footer h4{font-size:9px;text-transform:uppercase;letter-spacing:.2em;font-weight:500;color:#c5b7a6;margin:5px 0 20px}.footer-links{display:flex;flex-direction:column;gap:13px}.footer-links a,.footer-links span{font-size:11px;color:#e3ded6}.footer-links a:hover{color:#c5b7a6}.footer-bottom{border-top:1px solid #ffffff26;padding-top:20px;display:flex;justify-content:space-between;gap:20px;font-size:9px;letter-spacing:.08em;color:#bcb5ab}
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease}.reveal.visible{opacity:1;transform:translateY(0)}.mobile-menu{display:none}
+@media(max-width:900px){.nav{padding:0 5%;height:74px;grid-template-columns:44px 1fr 44px}.navlinks,.nav-right{display:none}.brand{font-size:25px}.menu-toggle{display:block}.menu-toggle svg{width:22px;height:22px}.hero{min-height:700px;min-height:calc(92svh - 100px);grid-template-columns:1fr}.hero-image{inset:0}.hero-image:after{background:linear-gradient(90deg,rgba(248,246,241,.93),rgba(248,246,241,.64) 45%,rgba(248,246,241,.03)),linear-gradient(0deg,rgba(41,39,34,.15),transparent 50%)}.hero-copy{padding:60px 8%;align-self:center}.hero h1{font-size:clamp(51px,10vw,76px);max-width:500px}.hero-copy p{max-width:290px}.hero-note{right:20px;bottom:24px}.section{padding:82px 6%}.intro-grid{gap:6%;grid-template-columns:1fr 1fr}.intro-image,.intro-image img{min-height:420px}.collection-card{min-height:340px}.collection-info{left:18px;right:18px;bottom:20px}.collection-info h3{font-size:27px}.editorial{min-height:500px}.editorial-image,.editorial-image img{min-height:500px}.editorial-copy{padding:45px}.store-card{padding:28px 20px}.footer-top{grid-template-columns:1.3fr 1fr 1fr;gap:30px}.footer-intro{grid-column:1/-1}}
+@media(max-width:600px){.announcement{font-size:8px;letter-spacing:.12em;padding:9px 10px}.nav{height:70px}.brand{font-size:23px}.brand small{font-size:8px;margin-top:6px}.hero{min-height:690px;min-height:calc(88svh - 70px)}.hero-image{inset:0}.hero-image img{object-position:58% center}.hero-image:after{background:linear-gradient(90deg,rgba(248,246,241,.95),rgba(248,246,241,.78) 45%,rgba(248,246,241,.14)),linear-gradient(0deg,rgba(41,39,34,.2),transparent 55%)}.hero-copy{padding:50px 7% 75px}.hero h1{font-size:clamp(49px,13vw,68px);margin:23px 0 18px;max-width:340px}.hero-copy p{font-size:12px;max-width:255px;line-height:1.8}.button{min-height:47px;padding:0 17px}.hero-note{font-size:8px;right:12px;bottom:18px}.section{padding:70px 6%}.section-head{display:block;margin-bottom:30px}.section-head h2{font-size:42px;margin-top:13px}.section-head p{margin-top:17px;font-size:12px}.intro-grid{grid-template-columns:1fr;gap:25px}.intro-image,.intro-image img{min-height:390px}.intro-copy{padding:10px 0 0}.intro-copy h2{font-size:43px;margin:16px 0}.intro-copy p{font-size:12px}.collections{padding-left:0;padding-right:0}.collections-inner{padding:0 6%}.collection-grid{grid-template-columns:1fr 1fr;gap:10px}.collection-card{min-height:260px;min-height:65vw}.collection-card:last-child{grid-column:1/-1;min-height:300px}.collection-info{left:14px;right:12px;bottom:14px}.collection-info h3{font-size:25px}.collection-info small{font-size:8px}.circle-arrow{width:32px;height:32px;font-size:15px;flex-shrink:0}.editorial{grid-template-columns:1fr}.editorial-image,.editorial-image img{min-height:390px;height:390px}.editorial-copy{padding:52px 7% 60px}.editorial-copy h2{font-size:45px}.store-grid{grid-template-columns:1fr;margin-top:28px}.store-card{min-height:210px;padding:27px 23px}.store-card h3{margin:12px 0 8px}.social{padding:70px 0}.social-head h2{font-size:42px}.social-grid{grid-template-columns:repeat(2,1fr);gap:5px}.footer{padding:55px 6% 20px}.footer-top{grid-template-columns:1fr 1fr;gap:35px 20px;padding-bottom:35px}.footer-intro{grid-column:1/-1}.footer-brand{font-size:32px}.footer-bottom{flex-direction:column;gap:10px;font-size:8px}.mobile-menu{position:fixed;inset:0;z-index:30;background:var(--ivory);padding:22px 7% 35px;display:flex;flex-direction:column;transform:translateX(-100%);transition:transform .35s cubic-bezier(.2,.7,.2,1);visibility:hidden}.mobile-menu.open{transform:translateX(0);visibility:visible}.mobile-menu-head{display:flex;justify-content:space-between;align-items:center;padding:8px 0 32px;border-bottom:1px solid var(--line)}.mobile-menu-head .brand{font-size:23px}.close-menu{background:none;border:0;font-size:28px;padding:8px}.mobile-menu-links{display:flex;flex-direction:column;padding-top:20px}.mobile-menu-links a{font:34px var(--serif);padding:15px 0;border-bottom:1px solid var(--line)}.mobile-menu-foot{margin-top:auto;color:var(--muted);font-size:11px;line-height:1.8}.reveal{transform:translateY(14px)}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.reveal{opacity:1;transform:none}}
+
+/* Lucignolo brand mark */
+.brand-logo { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:2px; width:min(190px, 38vw); text-decoration:none; }
+.brand-logo img { display:block; width:100%; height:58px; object-fit:cover; object-position:center; mix-blend-mode:multiply; border-radius:50%; }
+.brand-caption { font: 9px/1.2 var(--sans); letter-spacing:.16em; text-transform:uppercase; color:var(--muted); white-space:nowrap; }
+.footer-logo { display:flex; flex-direction:column; align-items:flex-start; gap:6px; width:160px; text-decoration:none; }
+.footer-logo img { width:150px; height:150px; object-fit:cover; border-radius:50%; mix-blend-mode:multiply; }
+.footer-logo span { font-size:10px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); }
+.collection-card { position:relative; }
+.collection-card:before { content:"★ Lucignolo"; position:absolute; z-index:2; right:14px; bottom:14px; color:#fff; font:24px Allura,cursive; text-shadow:0 1px 8px #0008; pointer-events:none; }
+@media(max-width:600px) {
+  .brand-logo { width:126px; }
+  .brand-logo img { height:43px; }
+  .brand-caption { font-size:7px; letter-spacing:.1em; }
+  .footer-logo img { width:118px; height:118px; }
+  .collection-card:after { width:42px; height:42px; right:10px; bottom:10px; }
+}
+
+
+.wordmark { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:0; width:min(230px, 42vw); }
+.wordmark-star { color:#172b56; font-size:15px; line-height:1; margin-bottom:-2px; }
+.wordmark-name { color:#172b56; font:46px/.9 Allura,cursive; letter-spacing:0; }
+.brand-caption { font:8px/1.2 var(--sans); letter-spacing:.16em; text-transform:uppercase; color:var(--muted); white-space:nowrap; margin-top:6px; }
+.footer-wordmark { display:flex; flex-direction:column; align-items:flex-start; gap:3px; }
+.footer-star { color:#d5c2ac; font-size:15px; }
+.footer-script { font:44px/.9 Allura,cursive; color:var(--ivory); }
+.footer-wordmark span:last-child { font:9px var(--sans); letter-spacing:.18em; text-transform:uppercase; color:#c0b9ae; margin-top:7px; }
+@media(max-width:600px) {
+ .wordmark { width:150px; }
+ .wordmark-name { font-size:37px; }
+ .wordmark-star { font-size:12px; }
+ .brand-caption { font-size:6.5px; letter-spacing:.1em; margin-top:4px; }
+ .footer-script { font-size:38px; }
+ .collection-card:before { font-size:21px; right:9px; bottom:9px; }
+}
+
+</style>
+</head>
+<body>
+<div class="announcement">Una boutique da scoprire · Forte dei Marmi e Versilia</div>
+<header class="header" id="header">
+  <nav class="nav" aria-label="Navigazione principale">
+    <button class="menu-toggle" id="menuOpen" aria-label="Apri il menu" aria-expanded="false" aria-controls="mobileMenu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 7h18M3 12h18M3 17h18"/></svg></button>
+    <div class="navlinks"><a href="#mondo">Il mondo</a><a href="#collezioni">Collezioni</a></div>
+    <a class="brand wordmark" href="#" aria-label="Lucignolo, homepage"><span class="wordmark-star">★</span><span class="wordmark-name">Lucignolo</span><span class="brand-caption">kids boutique · Versilia</span></a>
+    <div class="nav-right"><a href="#negozi">I negozi</a><a href="#contatti">Contatti ↗</a></div>
+  </nav>
+</header>
+<div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+  <div class="mobile-menu-head"><a class="brand wordmark" href="#"><span class="wordmark-star">★</span><span class="wordmark-name">Lucignolo</span><span class="brand-caption">kids boutique · Versilia</span></a><button class="close-menu" id="menuClose" aria-label="Chiudi il menu">×</button></div>
+  <nav class="mobile-menu-links" aria-label="Menu mobile"><a href="#mondo">Il mondo</a><a href="#collezioni">Collezioni</a><a href="#negozi">I negozi</a><a href="#instagram">Instagram</a><a href="#contatti">Contatti</a></nav>
+  <div class="mobile-menu-foot">Un modo speciale di vestire l’infanzia.<br>Forte dei Marmi · Pietrasanta · Tonfano</div>
+</div>
+<main>
+<section class="hero" aria-label="Benvenuti da Lucignolo">
+  <div class="hero-image"><img src="https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?auto=format&fit=crop&w=2000&q=88" alt="Bambini in un momento spensierato, fotografia editoriale" fetchpriority="high" onerror="this.style.display='none';this.parentElement.style.backgroundColor='#d5c2ac'"></div>
+  <div class="hero-copy">
+    <div class="eyebrow">Il mondo Lucignolo</div>
+    <h1>Il piacere di crescere <em>con stile.</em></h1>
+    <p>Una selezione pensata per accompagnare l’infanzia con bellezza, personalità e naturale eleganza.</p>
+    <a class="button" href="#collezioni">Scopri il nostro mondo <span class="arrow">↗</span></a>
+  </div>
+  <div class="hero-note">Piccoli momenti · Grande stile</div>
+</section>
+<section class="section" id="mondo">
+  <div class="intro-grid">
+    <div class="intro-image reveal"><img src="https://images.unsplash.com/photo-1471286174890-9c112ffca5b4?auto=format&fit=crop&w=1100&q=85" alt="Dettaglio di tessuti e abbigliamento in luce naturale" loading="lazy" onerror="this.style.display='none';this.parentElement.style.backgroundColor='#d5c2ac'"><div class="image-caption">La cura dei dettagli</div></div>
+    <div class="intro-copy reveal"><div class="eyebrow">Una boutique, un’attitudine</div><h2>Lo stile è fatto di piccoli dettagli.</h2><p>Lucignolo propone abbigliamento, calzature e accessori nel cuore della Versilia. Un luogo dove scoprire capi scelti con attenzione e lasciarsi ispirare da uno stile autentico, fresco e senza tempo.</p><p>Un’esperienza da vivere in negozio, tra materiali, colori e dettagli che fanno la differenza.</p><a class="text-link" href="#negozi">Vieni a trovarci <span>↗</span></a></div>
+  </div>
+</section>
+<section class="section collections" id="collezioni">
+  <div class="collections-inner">
+    <div class="section-head reveal"><div><div class="eyebrow">Da esplorare</div><h2>Un mondo di possibilità.</h2></div><p>Lasciati ispirare da un universo di stile dedicato ai più piccoli. Per conoscere la selezione disponibile, vieni a trovarci in boutique.</p></div>
+    <div class="collection-grid">
+      <a class="collection-card reveal" href="#negozi" aria-label="Scopri la selezione in boutique"><img src="https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?auto=format&fit=crop&w=900&q=85" alt="Moda e momenti d'infanzia" loading="lazy" onerror="this.style.display='none';this.parentElement.style.backgroundColor='#d5c2ac'"><div class="collection-info"><div><small>01 · Everyday</small><h3>Ogni giorno</h3></div><span class="circle-arrow">↗</span></div></a>
+      <a class="collection-card reveal" href="#negozi" aria-label="Scopri i look speciali in boutique"><img src="https://images.unsplash.com/photo-1503919005314-30d93d07d823?auto=format&fit=crop&w=900&q=85" alt="Bambini all'aperto in un momento spontaneo" loading="lazy" onerror="this.style.display='none';this.parentElement.style.backgroundColor='#d5c2ac'"><div class="collection-info"><div><small>02 · Special moments</small><h3>Occasioni speciali</h3></div><span class="circle-arrow">↗</span></div></a>
+      <a class="collection-card reveal" href="#negozi" aria-label="Scopri la selezione stagionale in boutique"><img src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=900&q=85" alt="Un momento tenero della vita in famiglia" loading="lazy" onerror="this.style.display='none';this.parentElement.style.backgroundColor='#d5c2ac'"><div class="collection-info"><div><small>03 · New season</small><h3>Nuova stagione</h3></div><span class="circle-arrow">↗</span></div></a>
+    </div>
+  </div>
+</section>
+<section class="editorial" aria-label="Lo stile dell'infanzia">
+  <div class="editorial-image"><img src="https://images.unsplash.com/photo-1471286174890-9c112ffca5b4?auto=format&fit=crop&w=1300&q=88" alt="Fotografia editoriale in tonalità calde" loading="lazy" onerror="this.style.display='none';this.parentElement.style.backgroundColor='#d5c2ac'"></div>
+  <div class="editorial-copy reveal"><div class="eyebrow">Piccole storie, ogni giorno</div><h2>L’infanzia ha il suo modo di essere straordinaria.</h2><p>Giornate di sole, nuove scoperte e ricordi da custodire. Il nostro mondo nasce dalla voglia di celebrare ogni momento con uno stile semplice, curato e pieno di carattere.</p><a class="button" href="#negozi">Entra in boutique <span class="arrow">↗</span></a></div>
+</section>
+<section class="section stores" id="negozi">
+  <div class="section-head reveal"><div><div class="eyebrow">Ti aspettiamo</div><h2>Ci trovi in Versilia.</h2></div><p>Il modo migliore per scoprire la selezione è vivere l’esperienza in boutique. Scegli la località e contattaci per organizzare la tua visita.</p></div>
+  <div class="store-grid">
+    <article class="store-card reveal"><span class="store-number">01 / Versilia</span><h3>Forte dei Marmi</h3><p>Via Torino, 1/C · 55042 Forte dei Marmi</p><a class="text-link" href="https://www.google.com/maps/search/?api=1&query=Lucignolo+Forte+dei+Marmi" target="_blank" rel="noopener noreferrer">Apri su Maps <span>↗</span></a></article>
+    <article class="store-card reveal"><span class="store-number">02 / Versilia</span><h3>Pietrasanta</h3><p>Via Mazzini, 100 · Pietrasanta</p><a class="text-link" href="https://www.google.com/maps/search/?api=1&query=Lucignolo+Pietrasanta" target="_blank" rel="noopener noreferrer">Cerca su Maps <span>↗</span></a></article>
+    <article class="store-card reveal"><span class="store-number">03 / Versilia</span><h3>Tonfano</h3><p>Via Versilia, 84 · Tonfano</p><a class="text-link" href="https://www.google.com/maps/search/?api=1&query=Lucignolo+Tonfano" target="_blank" rel="noopener noreferrer">Cerca su Maps <span>↗</span></a></article>
+  </div>
+  <p style="font-size:10px;color:var(--muted);line-height:1.7;margin-top:18px">Indirizzi e recapiti riportati dal sito ufficiale. Verifica telefonicamente eventuali variazioni prima della visita.</p>
+</section>
+<section class="social" id="instagram">
+  <div class="social-head reveal"><div class="eyebrow">Segui le ispirazioni</div><h2>Il nostro mondo, da vicino.</h2><p>Momenti, dettagli e nuove idee da condividere.</p></div>
+  <div class="social-grid">
+    <a class="social-tile" href="http://www.lucignolofortedeimarmi.it/contattaci.html" target="_blank" rel="noopener noreferrer" aria-label="Visita il sito ufficiale"><img src="https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?auto=format&fit=crop&w=650&q=80" alt="Momenti d'infanzia" loading="lazy" onerror="this.style.display='none';this.parentElement.style.backgroundColor='#d5c2ac'"></a>
+    <a class="social-tile" href="http://www.lucignolofortedeimarmi.it/contattaci.html" target="_blank" rel="noopener noreferrer" aria-label="Visita il sito ufficiale"><img src="https://images.unsplash.com/photo-1503919005314-30d93d07d823?auto=format&fit=crop&w=650&q=80" alt="Bambini all'aperto" loading="lazy" onerror="this.style.display='none';this.parentElement.style.backgroundColor='#d5c2ac'"></a>
+    <a class="social-tile" href="http://www.lucignolofortedeimarmi.it/contattaci.html" target="_blank" rel="noopener noreferrer" aria-label="Visita il sito ufficiale"><img src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=650&q=80" alt="Un momento in famiglia" loading="lazy" onerror="this.style.display='none';this.parentElement.style.backgroundColor='#d5c2ac'"></a>
+    <a class="social-tile" href="http://www.lucignolofortedeimarmi.it/contattaci.html" target="_blank" rel="noopener noreferrer" aria-label="Visita il sito ufficiale"><img src="https://images.unsplash.com/photo-1471286174890-9c112ffca5b4?auto=format&fit=crop&w=650&q=80" alt="Dettagli e atmosfere" loading="lazy" onerror="this.style.display='none';this.parentElement.style.backgroundColor='#d5c2ac'"></a>
+  </div>
+</section>
+</main>
+<footer class="footer" id="contatti">
+  <div class="footer-top">
+    <div class="footer-intro"><a class="footer-brand footer-wordmark" href="#"><span class="footer-star">★</span><span class="footer-script">Lucignolo</span><span>kids boutique · Versilia</span></a><p>Una boutique dedicata allo stile dei più piccoli. Da scoprire, vivere e ricordare.</p></div>
+    <div><h4>Esplora</h4><div class="footer-links"><a href="#mondo">Il mondo</a><a href="#collezioni">Collezioni</a><a href="#negozi">I negozi</a><a href="#instagram">Instagram</a></div></div>
+    <div><h4>I punti vendita</h4><div class="footer-links"><a href="https://www.google.com/maps/search/?api=1&query=Lucignolo+Forte+dei+Marmi" target="_blank" rel="noopener noreferrer">Forte dei Marmi ↗</a><a href="https://www.google.com/maps/search/?api=1&query=Lucignolo+Pietrasanta" target="_blank" rel="noopener noreferrer">Pietrasanta ↗</a><a href="https://www.google.com/maps/search/?api=1&query=Lucignolo+Tonfano" target="_blank" rel="noopener noreferrer">Tonfano ↗</a></div></div>
+    <div><h4>Contatti</h4><div class="footer-links"><a href="tel:+39058483370">Forte dei Marmi · 0584 83370</a><a href="tel:+39058472190">Pietrasanta · 0584 72190</a><a href="tel:+390584747604">Tonfano · 0584 747604</a><a href="http://www.lucignolofortedeimarmi.it/" target="_blank" rel="noopener noreferrer">Sito ufficiale ↗</a></div></div>
+  </div>
+  <div class="footer-bottom"><span>© <span id="year"></span> Lucignolo · Restyling digitale</span><span>Design con cura, pensato per ogni schermo.</span></div>
+</footer>
+<script>
+(() => {
+  const header = document.getElementById('header');
+  const menu = document.getElementById('mobileMenu');
+  const open = document.getElementById('menuOpen');
+  const close = document.getElementById('menuClose');
+  const setMenu = (state) => {
+    menu.classList.toggle('open', state);
+    document.body.classList.toggle('menu-open', state);
+    menu.setAttribute('aria-hidden', String(!state));
+    open.setAttribute('aria-expanded', String(state));
+  };
+  open.addEventListener('click', () => { setMenu(true); close.focus(); });
+  close.addEventListener('click', () => setMenu(false));
+  menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { setMenu(false); open.focus(); }));
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') { setMenu(false); open.focus(); } });
+  menu.addEventListener('keydown', e => {
+    if (e.key !== 'Tab' || !menu.classList.contains('open')) return;
+    const items = [...menu.querySelectorAll('a, button')].filter(el => !el.hasAttribute('disabled'));
+    const first = items[0], last = items[items.length - 1];
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  });
+  const onScroll = () => header.classList.toggle('scrolled', window.scrollY > 12);
+  onScroll(); window.addEventListener('scroll', onScroll, {passive:true});
+  document.getElementById('year').textContent = new Date().getFullYear();
+  if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) { entry.target.classList.add('visible'); observer.unobserve(entry.target); }
+      });
+    }, {threshold:0.12});
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  } else document.querySelectorAll('.reveal').forEach(el => el.classList.add('visible'));
+})();
+</script>
+</body>
+</html>
